@@ -7,7 +7,7 @@ public class Product {
     private int amountInStock;
     private int amountInCart;
 
-    Product(double price, boolean hasDiscount, int amountInStock) {
+    protected Product(double price, boolean hasDiscount, int amountInStock) {
         this.price = price;
         this.hasDiscount = hasDiscount;
         this.amountInStock = amountInStock;
